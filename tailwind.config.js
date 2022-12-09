@@ -1,0 +1,50 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    extend: {
+      fontFamily: {
+        "plus-jakarta-sans": "'Plus Jakarta Sans'",
+        roboto: "Roboto",
+        inter: "Inter",
+      },
+    },
+    colors: {
+      gray: {
+        "100": "#f9fafb",
+        "200": "#f3f4f6",
+        "300": "#cecfff",
+        "400": "#4b5563",
+        "500": "#2e2e2e",
+        "600": "#151515",
+        "700": "#12141d",
+      },
+      white: "#fff",
+      black: "#000",
+      violet: "#7375fd",
+    },
+    fontSize: {
+      "10xs": "10.29px",
+      "9xs": "12px",
+      "8xs": "13px",
+      "7xs": "13.17px",
+      "6xs": "14px",
+      "5xs": "15.05px",
+      "4xs": "15.43px",
+      "3xs": "16px",
+      "2xs": "16.01px",
+      xs: "16.93px",
+      sm: "17px",
+      base: "18px",
+      lg: "18.68px",
+      xl: "21px",
+      "2xl": "24px",
+      "3xl": "26.74px",
+      "4xl": "28px",
+      "5xl": "32px",
+      "6xl": "44px",
+      "7xl": "48px",
+    },
+  },
+  corePlugins: { preflight: false },
+};
